@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/8Observer8/multiplayer-game-in-js/issues"
   },
-  "homepage": "https://github.com/8Observer8/multiplayer-game-in-js#readme"
+  "homepage": "https://github.com/8Observer8/multiplayer-game-in-js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.3.1"
+  }
 }
