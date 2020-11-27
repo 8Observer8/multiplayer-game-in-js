@@ -10,7 +10,7 @@
 <body>
     <h1>Hello</h1>
     <script>
-        const ws = new WebSocket("ws://multiplayer-game-in-js.herokuapp.com");
+        const ws = new WebSocket("wss://multiplayer-game-in-js.herokuapp.com");
         ws.onopen =
             () => {
                 console.log("connected");
